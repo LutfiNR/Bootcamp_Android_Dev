@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ProjectAPP</string>
+    <string name="elden_ring">Elden Ring</string>
+    <string name="_2022_02_25">2022-02-25</string>
+    <string name="_4_4">4.4</string>
+    <string name="rpg">RPG</string>
+    <string name="action">Action</string>
+    <string name="about_game">About Game</string>
+    <string name="about_game_text">The Golden order has been broken.\n\nRise, Tarnished, and be guided by grace to brandish the power of the elden Ring and become an Elde Lord the Lands Between.\n\nIn the Lands Between ruled by Queen Marika the Eternal, the Elden Ring, the source of the Erdtree, has been shattered.\n\nMarika’s offspring, demigods all, claimed the shards of the Elden Ring known as the Great Runes, and the mad taint of their newfound strength triggered a war: The Shattering. A war that meant abandonment by the Greater</string>
+    <string name="developer">Developer</string>
+    <string name="cover">cover</string>
+    <string name="star">star</string>
+    <string name="fromsoftware">FromSoftware</string>
+    <string name="publisher">Publisher</string>
+    <string name="bandai_namco_entertainment">Bandai Namco Entertainment</string>
+    <string name="add_to_favorite">ADD TO FAVORITE</string>
+    <string name="preview_img">preview_img</string>
+</resources>
