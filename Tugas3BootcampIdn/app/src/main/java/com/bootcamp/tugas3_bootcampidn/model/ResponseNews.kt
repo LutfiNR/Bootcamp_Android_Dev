@@ -38,5 +38,7 @@ data class ArticlesItem(
 	@field:SerializedName("content")
 	val content: String? = null,
 
+	@field:SerializedName("url")
+	val url: String? = null,
 ) : Parcelable
 

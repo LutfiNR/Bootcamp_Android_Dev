@@ -1,5 +1,7 @@
 package com.bootcamp.tugas3_bootcampidn
 
+import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.bootcamp.tugas3_bootcampidn.databinding.ActivityDetailNewsBinding
@@ -22,6 +24,11 @@ class DetailNewsActivity : AppCompatActivity() {
 				.load(news.urlToImage)
 				.error(R.drawable.ic_launcher_background)
 				.into(imgNews)
+			wrap.setOnClickListener(){
+				intent = Intent(Intent.ACTION_VIEW)
+				intent.setData(Uri.parse(news.url))
+				startActivity(intent)
+			}
 		}
 	}
 	companion object{
