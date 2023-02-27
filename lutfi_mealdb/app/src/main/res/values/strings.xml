@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MeaList</string>
+    <string name="user_logo">user_logo</string>
+    <string name="warning">warning</string>
+    <string name="failed_to_fetch_data">Failed Fetch Data</string>
+    <string name="image_meal">meal_img</string>
+    <string name="image_detail">image_detail</string>
+    <string name="meal_name">Meal Name</string>
+    <string name="meal_category">Category</string>
+    <string name="meal_area">Area</string>
+    <string name="instruction">Instruction</string>
+    <string name="meal_detail_image">meal_detail_image</string>
+    <string name="fav">fav</string>
+    <string name="example">Example</string>
+    <string name="empty">Empty</string>
+</resources>

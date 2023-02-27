@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    >
+
+    <data>
+
+        <variable
+            name="dataDetail"
+            type="com.bootcamp.lutfi_mealdb.model.MealsDetail" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/fav_item_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:elevation="15dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        card_view:cardCornerRadius="10dp"
+        card_view:cardElevation="15dp"
+        card_view:cardMaxElevation="1dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/item_img"
+                loadImageFromUrl="@{dataDetail.meals[0].strMealThumb}"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:contentDescription="@string/image_meal"
+                android:scaleType="centerCrop" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:fontFamily="@font/roboto"
+                android:text="@{dataDetail.meals[0].strMeal}"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</layout>
