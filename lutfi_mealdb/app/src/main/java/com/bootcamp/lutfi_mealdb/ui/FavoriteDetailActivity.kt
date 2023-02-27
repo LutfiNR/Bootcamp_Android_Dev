@@ -2,6 +2,7 @@ package com.bootcamp.lutfi_mealdb.ui
 
 import FavoriteDetailViewModel
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.viewModels
@@ -37,6 +38,10 @@ class FavoriteDetailActivity : AppCompatActivity() {
                 finish()
             }
 
+        }
+        binding.favPlay.setOnClickListener(){
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(binding.favPlay.tag.toString()))
+            startActivity(intent)
         }
     }
 
