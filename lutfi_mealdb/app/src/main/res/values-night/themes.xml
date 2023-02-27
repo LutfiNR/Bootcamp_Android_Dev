@@ -12,5 +12,7 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">@color/c_ffd24c</item>
         <!-- Customize your theme here. -->
+        <item name="titleTextColor">@color/black</item>
+        <item name="backgroundColor">@color/c_ffd24c</item>
     </style>
 </resources>
